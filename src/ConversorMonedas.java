@@ -56,8 +56,8 @@ public class ConversorMonedas {
             System.out.println("2) Peso argentino >>> Dólar");
             System.out.println("3) Dólar >>> Real brasileño");
             System.out.println("4) Real brasileño >>> Dólar");
-            System.out.println("5) Dólar >>> Peso colombiano");
-            System.out.println("6) Peso colombiano >>> Dólar");
+            System.out.println("5) Dólar >>> Sol Peruano");
+            System.out.println("6) Sol Peruano >>> Dólar");
             System.out.println("7) Salir");
             System.out.println("Elija una opción válida:");
             System.out.println("*".repeat(70));
@@ -90,8 +90,8 @@ public class ConversorMonedas {
             case 2 -> { desde = "ARS"; hacia = "USD"; tasa = 1.0 / rates.get("ARS"); }
             case 3 -> { desde = "USD"; hacia = "BRL"; tasa = rates.get("BRL"); }
             case 4 -> { desde = "BRL"; hacia = "USD"; tasa = 1.0 / rates.get("BRL"); }
-            case 5 -> { desde = "USD"; hacia = "COP"; tasa = rates.get("COP"); }
-            case 6 -> { desde = "COP"; hacia = "USD"; tasa = 1.0 / rates.get("COP"); }
+            case 5 -> { desde = "USD"; hacia = "PEN"; tasa = rates.get("PEN"); }
+            case 6 -> { desde = "PEN"; hacia = "USD"; tasa = 1.0 / rates.get("PEN"); }
             default -> {
                 System.out.println("Opción no válida. Intente nuevamente.\n");
                 return;
