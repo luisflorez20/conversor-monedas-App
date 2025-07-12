@@ -15,3 +15,5 @@ Indicaciones
 Este proyecto fue escrito por Luis Flores, si como yo estas aprendiendo Java puedes copiar el código, leerlo y aprender.
 
 Saludos.
+
+<img width="681" height="372" alt="image" src="https://github.com/user-attachments/assets/a129153c-c045-4f0b-a992-8f0c3b7c7a8e" />
